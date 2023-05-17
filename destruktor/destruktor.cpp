@@ -19,4 +19,6 @@ angka::angka(int i){ //contruktor
 }
 
 angka::~angka(){ //destructor
+	cout<<endl;
+	cetakData();
 	
