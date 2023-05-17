@@ -23,3 +23,5 @@ angka::~angka(){ //destructor
 	cetakData();
 	delete[]arr;
 	cout << "alamat array sudh dilepaskan" << endl;
+}
+void angka::cetakData() {
