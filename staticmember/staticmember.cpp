@@ -9,7 +9,7 @@ public:
 	string nama;
 
 	void setID();
-	void printll();
+	void printAll();
 	mahasiswa(string pnama) :nama(pnama) { setID(); }
 };
 
@@ -18,4 +18,6 @@ int mahasiswa::nim = 0;
 void mahasiswa::setID() {
 	id = ++nim;
 }
-void mahasiswa::printALL() {
+void mahasiswa::printAll() {
+	cout << "id  =" << id << endl;
+	
