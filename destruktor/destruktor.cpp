@@ -10,3 +10,7 @@ public:
 	~angka(); //destructor
 	void cetakData();
 	void isiData();
+};
+//definisi memeber Function
+angka::angka(int i){ //contruktor
+	
