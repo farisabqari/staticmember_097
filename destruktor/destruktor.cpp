@@ -21,4 +21,5 @@ angka::angka(int i){ //contruktor
 angka::~angka(){ //destructor
 	cout<<endl;
 	cetakData();
-	
+	delete[]arr;
+	cout << "alamat array sudh dilepaskan" << endl;
