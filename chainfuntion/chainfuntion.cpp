@@ -19,3 +19,4 @@ public:
 
 int main()
 {
+	// bukunya.setJudul(*Matematika*);
